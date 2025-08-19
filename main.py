@@ -7,7 +7,7 @@ import pandas as pd
 
 Stocks = pd.read_pickle("Stocks.pkl")
 
-st.title("Company Name and Phone Number Input")
+st.title("StockPulse: Stock Data Alerts via WhatsApp")
 
 # Input for a single company name
 country = st.selectbox("Select Country", Stocks['Country'].unique())
