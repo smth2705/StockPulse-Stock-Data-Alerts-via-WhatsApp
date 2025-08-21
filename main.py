@@ -21,6 +21,7 @@ phone_number = st.text_input("Enter your phone number:")
 # When the user submits, validate and display the results
 if st.button("Submit"):
     controller(phone_number, ticker)
+    st.text("Message Sent")
 
 
 
